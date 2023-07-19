@@ -1,0 +1,237 @@
+/* ==================== Padding ======================= */
+.p-5 {
+    padding: 5px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.px-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.py-5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* ======================= Margins ======================== */
+.m-5 {
+    margin: 5px;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.mx-5 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.mx-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.my-5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* ====================== Border Rounding ======================== */
+.round-5 {
+    border-radius: 5px;
+}
+
+.round-10 {
+    border-radius: 10px;
+}
+
+
+/* ======================= flex-box display ====================== */
+.d-flex {
+    display: flex;
+}
+
+.d-flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.wrap {
+    flex-wrap: row;
+}
+
+.wrap-rev {
+    flex-wrap: wrap-reverse;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: end;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+.grow-half {
+    flex-grow: 0.5;
+}
+
+.shrink-1 {
+    flex-shrink: 1;
+}
+
+.shrink-half {
+    flex-shrink: 0.5;
+}
+
+
+/* ==================== text colors ==================== */
+.red {
+    color: red;
+}
+
+.purple {
+    color: purple;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.black {
+    color: black;
+}
+
+.pink {
+    color: pink;
+}
+
+.white {
+    color: white;
+}
+
+
+/* ====================== background colors ==================== */
+.bg-red {
+    background-color: red;
+}
+
+.bg-purple {
+    background-color: purple;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+/* ==================== navbar and other components ==================== */
+.navbar {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(211, 211, 211);
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline white 2px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+/* ====================== linear gradient ======================== */
+.from-green-lightgreen {
+    background: linear-gradient(to right, green, rgb(110, 196, 110));
+}
+
+.from-red-lightred {
+    background: linear-gradient(to right, red, rgb(211, 118, 118));
+}
+
+.from-white-grey {
+    background: linear-gradient(to right, white, rgb(233, 233, 233));
+}
+
+.from-black-lightblack {
+    background: linear-gradient(to right, rgb(31, 31, 31), rgb(46, 46, 46));
+}
